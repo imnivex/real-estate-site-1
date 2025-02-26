@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: gold;
+    text-align: center;
+}
+
+header {
+    background: black;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    color: gold;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: gold;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.hero {
+    background: url('luxury-bg.jpg') no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 5px black;
+}
+
+.hero h2 {
+    font-size: 42px;
+}
+
+.intro, .features, .gallery, .cta {
+    padding: 50px 20px;
+}
+
+.feature-box {
+    margin: 20px auto;
+    padding: 15px;
+    border: 2px solid gold;
+    width: 80%;
+}
+
+.image-grid img {
+    width: 30%;
+    margin: 10px;
+    border-radius: 10px;
+    transition: transform 0.5s;
+}
+
+.image-grid img:hover {
+    transform: scale(1.1);
+}
+
+.cta-button {
+    background: gold;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+footer {
+    padding: 20px;
+    background: black;
+}
